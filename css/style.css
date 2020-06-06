@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+h1{
+	font-size: 30px;
+	font-weight: 400;
+}
+
+/*difference container style start*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container-2{
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*difference container style end*/
+/*ubuntu common text start*/
+.ubuntu-text{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 25px 0px;
+}
+/*ubuntu common text end*/
+/*content style start*/
+.content p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+/*content style end*/
+/*single box style start*/
+.single-box{
+	width: 47%;
+	float: left;
+	margin-bottom: 100px;
+}
+.single-box img{
+	width: 100%;
+	display: block;
+}
+.single-box:nth-child(even){
+	float: right;
+}
+/*single box style end*/
+/*-------------universal end here---------------*/
+/*header start*/
+header{
+	padding: 20px 0px;
+}
+header .logo{
+	width: 120px;
+	float: left;
+	padding: 2px;
+}
+header .menu{
+	width: 80%;
+	float: right;
+	margin-top: 3px;
+}
+header .menu ul{
+	float: right;
+}
+header .menu ul li{
+	list-style: none;
+	float: left;
+}
+header .menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+	margin: 0px 60px;
+	transition: .3s;
+	padding: 2px;
+	border-bottom: 1px solid transparent;
+}
+header .menu ul li a:hover{
+	border-bottom: 1px solid #333;
+}
+header .menu ul li:last-child a{
+	margin-right: 0px;
+}
+/*hero area start*/
+.hero-bg .container img{
+	width: 100%;
+	display: block;
+}
+/*photodiary area start*/
+.photodiary{
+	padding: 70px 0px;
+}
+.photodiary a.ubuntu-text{
+	text-decoration: none;
+	transition: .3s;
+}
+.photodiary a.ubuntu-text:hover{
+	color: #333;
+}
+/*newsletter start*/
+.newsletter{
+	padding: 70px 0px;
+	background: #f0f0f0;
+}
+.newsletter h1{
+	text-align: center;
+	color: #333;
+	margin-bottom: 70px;
+}
+.newsletter form{
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+	border-bottom: 2px solid #626262;
+}
+.newsletter form input{
+	font-size: 14px;
+	width: 345px;
+	border: none;
+	background: none;
+	outline: none;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+.newsletter form input:focus{
+	outline: none;
+}
+.newsletter form button{
+	position: absolute;
+	top: 3px;
+	right: 0px;
+	width: 45px;
+	border: none;
+	cursor: pointer;
+	background: transparent;
+}
+.newsletter form button:focus{
+	outline: none;
+}
+ /*travel blogs start*/
+ .t-blogs{
+ 	margin-top: 100px;
+ 	margin-bottom: 100px;
+ }
+ .t-blogs .btn{
+ 	text-align: center;
+ }
+ .t-blogs .btn button{
+ 	font-family: 'Playfair Display', serif;
+ 	font-size: 18px;
+ 	padding: 20px 40px;
+ 	border: 1px solid #333;
+ 	border-radius: 2px;
+ 	background: none;
+ 	cursor: pointer;
+ 	transition: .3s;
+ }
+.t-blogs .btn button:hover{
+	background: #333;
+	color: #fff;
+}
+/*footer start*/
+footer{
+	padding: 20px 0px;
+	background: #ccc;
+}
+footer .terms{
+	display: inline-block;
+}
+footer .terms a{
+	color: #000;
+	text-decoration: none;
+	margin-right: 20px;
+}
+footer .terms a:hover{
+	text-decoration: underline;
+}
+footer .f-icon{
+	float: right;
+}
+footer .f-icon span{
+	color: #000;
+	margin-right:0px;
+}
+footer .f-icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+footer .f-icon a{
+	margin-left: 25px;
+	text-decoration: none;
+	color: #000;
+	transition: .3s;
+}
+footer .f-icon a:hover{
+	color: #fff;
+}
